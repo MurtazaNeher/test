@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+
+  <body>
+    <!-- Top Navbar -->
+    <nav class="navbar navbar-expand-lg" id="top-navbar">
+      <div class="container">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <img src="assets/images/stack-icon.svg" alt="" /> LAW PORTAL</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MEDIA CONTACTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">EVENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CLE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LIBRARY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              >CONSUMER INFORMATION (ABA REQUIRED DISCLOUSERS)</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">VISIT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">COVID 19</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><img src="assets/images/search.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Logo Section -->
+    <section class="logo-container">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <div class="main-logo-wrapper">
+            <img src="assets/images/logo-main.svg" alt="" />
+          </div>
+          <div class="small-logo-wrapper">
+            <img src="assets/images/logo-2-small.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-expand-lg" id="main-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="display: none"
+          ><div class="main-logo-wrapper">
+            <img src="assets/images/logo-main.svg" alt="" /></div
+        ></a>
+
+        <a href="#" class="ms-auto search-icon-navbar" style="display: none">
+          <img src="assets/images/search-white.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler navbar-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <img
+            src="assets/images/menu-white.svg"
+            alt=""
+            class="navbar-toggler-img"
+          />
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acedmics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Admission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Students</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Carriers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Faculty</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Alumni and Giving</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-0 col-0 l-part">
+            <div class="sec-head">
+              <h3>In this section</h3>
+            </div>
+
+            <div class="tabs-wrapper">
+              <ul>
+                <li class="tab active" onclick="changeContent(0)">
+                  Student Affairs Office
+                </li>
+                <li class="tab" onclick="changeContent(1)">studentsule</li>
+                <li class="tab" onclick="changeContent(2)">
+                  Student Resources
+                </li>
+                <li class="tab" onclick="changeContent(3)">
+                  Student Organizations
+                </li>
+                <li class="tab" onclick="changeContent(4)">
+                  Academic journals and Moor court
+                </li>
+                <li class="tab" onclick="changeContent(5)">
+                  Life in Los Angeles
+                </li>
+                <li class="tab" onclick="changeContent(6)">Life on Camous</li>
+                <li class="tab" onclick="changeContent(7)">
+                  Discriminaton and narassmen
+                </li>
+                <li class="tab" onclick="changeContent(8)">
+                  Prevention and Reporting
+
+                </li>
+                <li class="tab" onclick="changeContent(9)">
+                  peer support
+                </li>
+                <li class="tab" onclick="changeContent(10)">
+                  First Generation Professionals
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12 mid-part">
+            <div class="main-img-wrapper">
+              <img src="assets/images/students (1).svg" alt="" />
+              <div class="main-img-black-sec">
+                <div class="img-details-wrapper">
+                  <h3 class="head">Students affair office</h3>
+                  <h6>Usc gould school of law</h6>
+                  <div class="golden-border"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="content">
+              <div class="sec-head">
+                <h3 class="head">Student affairs office - Suite 104</h3>
+              </div>
+
+              <div class="description">
+                their academic, personal and professional goals. The Student
+                Affairs Office is the place for students to come with questions
+                througnout their time at Gould. The office serves as a central
+                nub coordinating with faculty and administration on academic and
+                student issues and provides campus resources & when life resents
+                challenges
+                <span class="sub-head"> Our mission </span>
+
+                is to facilitate learning and support the health and well-being
+                of every student by developing a culture of intellectual
+                curiosity, accountapilty, inclusion and respect for each other
+                and ourselves.
+                <span class="sub-head"> Our vision</span>
+
+                is to set the standard for innc vative and student-centered
+                progi ams an series In ever. growing diverse population. Our
+                goal is to develop leaders wno will increase access to justice.
+                strengthen the legal profession and make a difference in our
+                society and in our world Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Tenetur, obcaecati ea. Veritatis laudantium
+                cum quisquam consequatur deleniti.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-0 col-0 r-part">
+            <div class="sec-head">
+              <h3>recent news</h3>
+            </div>
+
+            <div class="small-con-div">
+              <p>empty div for content</p>
+            </div>
+            <div class="big-con-div">
+              <p>empty div for content</p>
+            </div>
+            <div class="big-con-div">
+              <p>empty div for content</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Responsive Main -->
+    <section class="responsive-main" style="display: none">
+      <div class="container-fluid g-0">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 mid-part">
+          <div class="main-img-wrapper">
+            <img src="assets/images/students (1).svg" alt="" />
+            <div class="main-img-black-sec">
+              <div class="img-details-wrapper">
+                <h3 class="head">Students affair office</h3>
+                <h6>Usc gould school of law</h6>
+                <div class="golden-border"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="list-dropdown">
+            <div class="list-drp-btn">View more</div>
+           
+            <div class="tabs-wrapper mob-drp" style="display: none">
+              <ul>
+                <li class="tab active" onclick="changeContent(0)">
+                  Student Affairs Office
+                </li>
+                <li class="tab" onclick="changeContent(1)">studentsule</li>
+                <li class="tab" onclick="changeContent(2)">
+                  Student Resources
+                </li>
+                <li class="tab" onclick="changeContent(3)">
+                  Student Organizations
+                </li>
+                <li class="tab" onclick="changeContent(4)">
+                  Academic journals and Moor court
+                </li>
+                <li class="tab" onclick="changeContent(5)">
+                  Life in Los Angeles
+                </li>
+                <li class="tab" onclick="changeContent(6)">Life on Camous</li>
+                <li class="tab" onclick="changeContent(7)">
+                  Discriminaton and narassmen
+                </li>
+                <li class="tab" onclick="changeContent(8)">
+                  Prevention and Reporting
+
+                </li>
+                <li class="tab" onclick="changeContent(9)">
+                  peer support
+                </li>
+                <li class="tab" onclick="changeContent(10)">
+                  First Generation Professionals
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="sec-head">
+              <h3 class="head">Student affairs office - Suite 104</h3>
+            </div>
+
+            <div class="description">
+              their academic, personal and professional goals. The Student
+              Affairs Office is the place for students to come with questions
+              througnout their time at Gould. The office serves as a central nub
+              coordinating with faculty and administration on academic and
+              student issues and provides campus resources & when life resents
+              challenges
+              <span class="sub-head"> Our mission </span>
+
+              is to facilitate learning and support the health and well-being of
+              every student by developing a culture of intellectual curiosity,
+              accountapilty, inclusion and respect for each other and ourselves.
+              <span class="sub-head"> Our vision</span>
+
+              is to set the standard for innc vative and student-centered progi
+              ams an series In ever. growing diverse population. Our goal is to
+              develop leaders wno will increase access to justice. strengthen
+              the legal profession and make a difference in our society and in
+              our world Lorem ipsum dolor, sit amet consectetur adipisicing
+              elit. Tenetur, obcaecati ea. Veritatis laudantium cum quisquam
+              consequatur deleniti.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex social-icons align-items-center">
+            <img src="assets/images/facebook.svg" alt="" />
+            <img src="assets/images/instagram.svg" alt="" />
+            <img src="assets/images/twitter.svg" alt="" />
+            <img src="assets/images/linkedin.svg" alt="" />
+            <img src="assets/images/youtube.svg" alt="" />
+          </div>
+
+          <ul class="d-flex flex-column link-ul">
+            <li>contact us</li>
+            <li>visist us</li>
+            <li>consumer INFORMATION (aba REQUIRED DISCLOUSERS)/li></li>
+            <li class="after-arrow">
+              privacy policy <img src="assets/images/arrow.svg" alt="" />
+            </li>
+            <li class="after-arrow">
+              notice of non - discr4imation
+              <img src="assets/images/arrow.svg" alt="" />
+            </li>
+            <li class="after-arrow">
+              emergency information <img src="assets/images/arrow.svg" alt="" />
+            </li>
+            <li class="after-arrow">
+              employment <img src="assets/images/arrow.svg" alt="" />
+            </li>
+          </ul>
+
+          <div class="small-logo-wrapper mt-2">
+            <img src="assets/images/logo-2-small.svg" alt="" />
+          </div>
+          <ul class="d-flex flex-column info-ul">
+            <li>Lorem, ipsum dolor.</li>
+            <li>london</li>
+            <li>354141324185</li>
+          </ul>
+
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center copyright pt-4">
+            Copyright 2022
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/app.js" type="text/javascript"></script>
+  </body>
+</html>
